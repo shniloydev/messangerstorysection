@@ -17,6 +17,13 @@ body {
   border-radius: 20px;
 }
 
+
+@media screen and (max-width: 600px) {
+  ..main-div {
+    max-width: 100%; /* Adjust max-width for smaller screens */
+  }
+}
+
 /* Main Style Start= */
 
 .main-div .header {
