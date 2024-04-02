@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messenger Story</title>
+    <!-- owl  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- Main Css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="header">
+        <h1>Messenger Story Build By Niloy</h1>
+      </div>
+
+      <div class="story-main-container">
+        <div class="story-col owl-carousel owl-theme">
+          <div class="card story-card1">
+            <div class="story-profile"></div>
+            <span>Rodro Shamim</span>
+          </div>
+          <div class="card story-card2">
+            <div class="story-profile"></div>
+            <span>Asif Sharker</span>
+          </div>
+          <div class="card story-card3">
+            <div class="story-profile"></div>
+            <span>SH Niloy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- owl -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          nav: true,
+          autoplay: true,
+          autoplayTimeout: 2000,
+          autoplayHoverPause: true,
+          responsive: {
+            0: {
+              items: 3,
+            },
+            600: {
+              items: 3,
+            },
+            1000: {
+              items: 3,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
