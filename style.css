@@ -19,7 +19,7 @@ body {
 
 
 @media screen and (max-width: 600px) {
-  ..main-div {
+  .main-div {
     max-width: 100%; /* Adjust max-width for smaller screens */
   }
 }
