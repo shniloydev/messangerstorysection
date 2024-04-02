@@ -18,6 +18,29 @@ body {
 }
 
 
+
+@media screen and (max-width: 1200px) {
+  .main-div {
+    max-width: 100%; /* Adjust max-width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-div {
+    max-width: 100%; /* Adjust max-width for smaller screens */
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .main-div {
+    max-width: 100%; /* Adjust max-width for smaller screens */
+  }
+}
+
 @media screen and (max-width: 600px) {
   .main-div {
     max-width: 100%; /* Adjust max-width for smaller screens */
